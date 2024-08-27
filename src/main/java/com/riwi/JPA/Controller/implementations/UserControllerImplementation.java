@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/users")
-@RequestBody();
 public class UserControllerImplementation implements UserController {
 
     @Autowired
